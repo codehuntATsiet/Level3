@@ -1,0 +1,41 @@
+hi just think about the encryption and decryption 
+lets have a look on how to encrypt and decrypt
+
+
+encryption
+
+                
+    * original.txt  ----- e.c ---->   encrypted.txt
+
+            ascii   ---------->   complex
+
+    formula with eg
+
+        if(char in original == a)
+        int ascii = (int)a || 97
+        int quotient  = 97/3;  == 32
+        int remainder = 97%3;  == 1
+
+
+        encrypted == ( 32+ 1i )
+
+
+eg 1:
+
+
+original.txt
+    
+    hello
+
+encrypted.txt
+
+    (34+2i)(33+2i)(36+0i)(36+0i)(37+0i)
+
+
+
+
+decryption
+
+    encrypted.txt ---------- d.c -------> decrypted.txt
+
+    formula is up to you........
